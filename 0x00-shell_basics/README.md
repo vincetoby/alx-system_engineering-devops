@@ -18,4 +18,6 @@ This is a README File explaining each Script
 
 9. 8-firstdelete : This script deletes the file betty in /tmp/my_first_directory.
 
+10. 9-firstdirdeletion : This script deletes the directory my_first_directory that is in the /tmp directory.10. 
+
 
