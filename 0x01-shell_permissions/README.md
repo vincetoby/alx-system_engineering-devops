@@ -12,4 +12,5 @@ README file explaining what each script does
     Owner: no permission at all
     Group: no permission at all
     Other users: all the permissions
-10. 
+10. 9-John_Doe: This script sets the mode of the file hello to; owner (read, write and execute), group (reaad and execute), others (write and execute).
+11. 
