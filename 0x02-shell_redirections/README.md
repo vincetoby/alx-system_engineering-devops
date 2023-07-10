@@ -6,4 +6,6 @@ This files explains each script in 0x02-shell_redirections directory
 3. 2-hellofile: This script displays the content of the /etc/passwd file.
 4. 3-twofiles: This script displays the content of /etc/passwd and /etc/hosts.
 5. 4-lastlines: This script displays the last 10 lines of /etc/passwd
-6.   
+6. 5-firstlines: This script displays the first 10 lines of /etc/passwd
+7. 6-third_line: This script displays the third line of the file iacta.
+8.    
