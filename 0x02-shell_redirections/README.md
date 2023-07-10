@@ -24,4 +24,5 @@ This files explains each script in 0x02-shell_redirections directory
 21. 20-hiago : This script  removes all letters c and C from input.
 22. 21-reverse: This script reverse its input.
 23. 22-users_and_homes: This script displays all users and their home directories, sorted by users.
-24.    
+24. 100-empty_casks: This script  finds all empty files and directories in the current directory and all sub-directories; showing only the names of the files and directories, not the entire path, including hidden files, One file name per line.
+25.     
