@@ -25,4 +25,5 @@ This files explains each script in 0x02-shell_redirections directory
 22. 21-reverse: This script reverse its input.
 23. 22-users_and_homes: This script displays all users and their home directories, sorted by users.
 24. 100-empty_casks: This script  finds all empty files and directories in the current directory and all sub-directories; showing only the names of the files and directories, not the entire path, including hidden files, One file name per line.
-25.     
+25. 101-gifs: This script lists all the files with a .gif extension in the current directory and all its sub-directories.
+26.      
