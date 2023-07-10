@@ -5,4 +5,5 @@ This files explains each script in 0x02-shell_redirections directory
 2.  1-confused_smiley: This script displays a confused smiley "(Ôo)'.
 3. 2-hellofile: This script displays the content of the /etc/passwd file.
 4. 3-twofiles: This script displays the content of /etc/passwd and /etc/hosts.
-5.  
+5. 4-lastlines: This script displays the last 10 lines of /etc/passwd
+6.   
