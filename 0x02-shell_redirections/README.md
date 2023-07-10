@@ -15,4 +15,5 @@ This files explains each script in 0x02-shell_redirections directory
 12. 11-directories: This script counts the number of directories and sub-directories including hidden directories in the current directory without taking into account current and parent directories.  
 13. 12-newest_files: This script displays the 10 newest files in the current directory.
 14. 13-unique: This script takes a list of words as input and prints only words that appear exactly once.
-15.  
+15. 14-findthatword: This script displays  lines containing the pattern “root” from the file /etc/passwd.
+16.   
