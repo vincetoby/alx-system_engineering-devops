@@ -7,4 +7,5 @@ This README.md file explains the function of each script
 6. 5-local_variables: This script lists all local variables and environment variables, and functions.
 7. 6-create_local_variable: This script creates a new local variable BEST" with value "School".
 8. 7-create_global_variable: This script creates a new global variable "BEST" with value "School".  
-9. 
+9. 8-true_knowledge: This script prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+10.  
