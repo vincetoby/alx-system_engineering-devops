@@ -3,4 +3,5 @@ This README.md file explains the function of each script
 2. 1-hello_you: This script prints hello user, where user is the current Linux user.
 3. 2-path: This script adds /action to the PATH.
 4. 3-paths: This script counts the number of directories in the PATH.
-5.  
+5. 4-global_variables: This script lists environment variables.
+6.  
