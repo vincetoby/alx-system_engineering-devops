@@ -8,4 +8,5 @@ This README.md file explains the function of each script
 7. 6-create_local_variable: This script creates a new local variable BEST" with value "School".
 8. 7-create_global_variable: This script creates a new global variable "BEST" with value "School".  
 9. 8-true_knowledge: This script prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
-10.  
+10. 9-divide_and_rule: This script prints the result of POWER divided by DIVIDE, followed by a new line.
+11.   
