@@ -5,5 +5,6 @@ This README.md file explains the function of each script
 4. 3-paths: This script counts the number of directories in the PATH.
 5. 4-global_variables: This script lists environment variables.
 6. 5-local_variables: This script lists all local variables and environment variables, and functions.
-7. 6-create_local_variable: This script creates a new local variable.
-8.  
+7. 6-create_local_variable: This script creates a new local variable BEST" with value "School".
+8. 7-create_global_variable: This script creates a new global variable "BEST" with value "School".  
+9. 
