@@ -11,4 +11,6 @@ This README.md file explains the function of each script
 10. 9-divide_and_rule: This script prints the result of POWER divided by DIVIDE, followed by a new line.
 11. 10-love_exponent_breath: This script displays the result of BREATH to the power LOVE.   
 12. 11-binary_to_decimal: This script converts a number from base 2 to base 10 (The number in base 2 is stored in the environment variable BINARY). 
-13. 
+13. 12-combinations: This script prints all possible combinations of two letters, except oo (Letters are lower cases, from a to z, One combination per line, The output should be alpha ordered, starting with aa)
+14. 13-print_float: This script prints a number with two decimal places, followed by a new line.
+15 
