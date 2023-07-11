@@ -10,4 +10,5 @@ This README.md file explains the function of each script
 9. 8-true_knowledge: This script prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 10. 9-divide_and_rule: This script prints the result of POWER divided by DIVIDE, followed by a new line.
 11. 10-love_exponent_breath: This script displays the result of BREATH to the power LOVE.   
-12. 
+12. 11-binary_to_decimal: This script converts a number from base 2 to base 10 (The number in base 2 is stored in the environment variable BINARY). 
+13. 
