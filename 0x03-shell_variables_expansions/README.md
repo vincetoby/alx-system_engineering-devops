@@ -16,4 +16,4 @@ This README.md file explains the function of each script
 15. 100-decimal_to_hexadecimal: This script converts a number from base 10 to base 16 (The number in base 10 is stored in the environment variable DECIMAL).
 16. 101-rot13: This script encodes and decodes text using the rot13 encryption.
 17. 102-odd: This script prints every other line from the input, starting with the first line.
-18.  
+18. 103-water_and_stir: This script adds the two numbers stored in the environment variables WATER and STIR and prints the result (WATER is in base water, STIR is in base stir and the result in base bestchol).  
