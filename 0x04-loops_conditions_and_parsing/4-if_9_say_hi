@@ -10,5 +10,5 @@ do
     else
         echo "Best School"
     fi
-    let C+=1
+    (( C+=1 ))
 done

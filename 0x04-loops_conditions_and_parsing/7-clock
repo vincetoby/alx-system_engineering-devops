@@ -9,7 +9,7 @@ do
     while [ $MINS -lt 60 ]
     do
         echo $MINS
-	let MINS+=1
+	(( MINS+=1 ))
     done
-    let HRS+=1
+    (( HRS+=1 ))
 done 

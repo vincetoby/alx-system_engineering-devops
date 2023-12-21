@@ -16,5 +16,5 @@ do
     else
         echo "$COUNT"
     fi
-    let COUNT+=1
+    (( COUNT+=1 ))
 done

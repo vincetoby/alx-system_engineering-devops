@@ -26,5 +26,5 @@ do
 	    ;;
     esac
 
-    let C+=1
+    (( C+=1 ))
 done
