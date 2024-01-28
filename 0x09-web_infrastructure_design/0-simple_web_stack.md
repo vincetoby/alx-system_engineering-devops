@@ -1,6 +1,6 @@
 # Simple Web Stack
 
-view the flowchart image of a simple web stack [here](https://drive.google.com/file/d/1MuXnQ7EecAGh3gwfdECAn-usCmzzUCLU/view?usp=sharing)
+![flowchart image](0-simple_web_stack.drawio.png)
 
 ## DESCRIPTION
 It is a simple web infrastructure that hosts a website that is reachable via www.foobar.com. It doesnt contain firewalls or SSL certificates for protecting the server's network and each component (database, application server) has to share the resources (CPU, RAM, and SSD) provided by the server.
