@@ -33,13 +33,13 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-frontend  ollyjhay-frontend
+frontend  ubuntu-frontend
         bind *:80
         mode http
         bind *:443 ssl crt /etc/haproxy/certs/www.ollyjhay.tech.pem
         redirect scheme https if !{ ssl_fc }
         default_backend ollyjhay-backend
-backend ollyjhay-backend
+backend ubuntu-backend
         balance roundrobin
         server 479506-web-01 54.160.115.206:80 check
         server 479506-web-02 54.88.123.131:80 check
@@ -47,5 +47,5 @@ backend ollyjhay-backend
 listen http-in
         bind :80
         balance roundrobin
-        server 479506-web-01 54.160.115.206:80 check
-        server 479506-web-02 54.88.123.131:80 check
+	server 479506-web-01 54.160.115.206:80 check
+	server 479506-web-02 54.88.123.131:80 check
