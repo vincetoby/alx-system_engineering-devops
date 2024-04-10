@@ -8,19 +8,19 @@ import re
 import requests
 
 
-def add_title(dictionary, ,_posts):
+def add_title(dictionary, ,hot_posts):
     """ A func that adds items into a list """
-    if len(_posts) == 0:
+    if len(hot_posts) == 0:
         return
 
-    title = _posts[0]['data']['title'].split()
+    title = hot_posts[0]['data']['title'].split()
     for words in title:
         for key in dictionary.keys():
             c = re.compile("^{}$".format(key), re.I)
             if c.findall(words):
                 dictionary[key] += 1
-    _posts.pop(0)
-    add_title(dictionary, _posts)
+    hot_posts.pop(0)
+    add_title(dictionary, hot_posts)
 
 
 def recurse(subreddit, dictionary, after=None):
@@ -44,8 +44,8 @@ def recurse(subreddit, dictionary, after=None):
         return None
 
     dic = res.json()
-    _posts = dic['data']['children']
-    add_title(dictionary, _posts)
+    hot_posts = dic['data']['children']
+    add_title(dictionary, hot_posts)
     after = dic['data']['after']
     if not after:
         return
